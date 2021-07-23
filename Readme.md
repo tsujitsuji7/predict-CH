@@ -11,7 +11,7 @@ This repository contains
 
 The details of folders and data files:
 
-**01data**
+**data**
 
 **experiment_data.csv **
 
@@ -30,7 +30,7 @@ The list of descriptor names used for prediction
 
  
 
-**02code**
+**code**
 
 **predict_CH.py**
 
@@ -43,39 +43,37 @@ The following is an example of prediction for composition specified in console.
 python3 predict_CH.py
 
 
-Enter the host element of the A-site
+Enter the host element occupying the A-site
 
 Ex:Ba
 
 Ba
 
-Enter the valence of the A-site
+Enter the valence of the A-site host element
 
 Ex:2
 
 2
 
-Enter the host ratio of A-site
-
-Enter the host element of the B-site
+Enter the host element occupying the B-site
 
 Ex:Zr
 
 Zr
 
-Enter the valence of the B-host
+Enter the valence of the B-site host element
 
 Ex:4
 
 4
 
-Enter the host ratio of B-site
+Enter the fraction that describes the composition of the B-site host element
 
 Ex:0.8
 
 0.8
 
-Enter the dopant element of B-site
+Enter the dopant element occupying the B-site
 
 Ex:Sc
 
@@ -94,7 +92,7 @@ defines functions for computing descriptors and combining and output dataset
 
  
 
-**03output**
+**output**
 
 is a folder to store combined training and test dataset, and prediction results.
 After implementing "predict_CH.py", the following folders will be generated.

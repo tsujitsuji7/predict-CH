@@ -13,7 +13,7 @@ The details of folders and data files:
 
 **data**
 
-**experiment_data.csv **
+**experiment_data.csv**
 
 Temperature-dependent experimental data of the proton concentration
 

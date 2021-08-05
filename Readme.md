@@ -1,4 +1,4 @@
-The results obtained using and modifying this code and hydration data set may be used in any publications provided that its use is explicitly acknowledged. A suitable reference is: Junji Hyodo, Kota Tsujikawa, Motoki Shiga, Yuji Okuyama, and Yoshihiro Yamazaki*, “Accelerated discovery of proton-conducting perovskite oxide by capturing physicochemical fundamentals of hydration”, ACS Energy Letters, 6(2021) 2985-2992. (Ihttps://doi.org/10.1021/acsenergylett.1c01239)
+The results obtained using and modifying this code and hydration data set may be used in any publications provided that its use is explicitly acknowledged. A suitable reference is: Junji Hyodo, Kota Tsujikawa, Motoki Shiga, Yuji Okuyama, and Yoshihiro Yamazaki*, “Accelerated discovery of proton-conducting perovskite oxide by capturing physicochemical fundamentals of hydration”, ACS Energy Letters, 6(2021) 2985-2992. (https://doi.org/10.1021/acsenergylett.1c01239)
 
 
 

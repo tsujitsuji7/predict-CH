@@ -23,21 +23,20 @@ if __name__=='__main__':
 
     # generate output directry
     dir_root_output = os.path.join('output','prediction')
-    if os.path.exists(dir_root_output):
-        shutil.rmtree(dir_root_output)
-    os.mkdir(dir_root_output)
+    
+    os.makedirs(dir_root_output, exist_ok=True)
 
     # generate experiment condition directry
     dir_vec_output = os.path.join(dir_root_output,'VirtualExpCondition')
-    os.mkdir(dir_vec_output)
+    os.makedirs(dir_vec_output, exist_ok=True)
     
     # generate experiment dataset directry
     dir_ve_output = os.path.join(dir_root_output,'VirtualExperiment')
-    os.mkdir(dir_ve_output)
+    os.makedirs(dir_ve_output, exist_ok=True)
 
     # generate CH prediction directry
     dir_CH_pred_output = os.path.join(dir_root_output,'predict_CH')
-    os.mkdir(dir_CH_pred_output)
+    os.makedirs(dir_CH_pred_output, exist_ok=True)
 
     #---------------------------------------------------------------------------
 
@@ -76,7 +75,7 @@ if __name__=='__main__':
     flag_proc = 'log_CHdopant' 
 
     # file name of experimental data
-    file_train = os.path.join('data','Data S1.csv')
+    file_train = os.path.join('data','experiment_data.csv')
     # output file name of training data, which is combinations of experimental data and descriptors
     file_virtual_experiment_train = os.path.join(dir_ve_output,'virtual_experiment_dataset_train.csv')
     # generate train dataset
